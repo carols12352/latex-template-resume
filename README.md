@@ -1,5 +1,5 @@
-
-# LaTeX Resume – One-File Standalone Version
+(English|[简体中文](./README_cn.md)）
+# LaTeX Resume
 
 This is a simple, elegant one-file LaTeX resume template that requires no external files or packages beyond standard ones.
 
