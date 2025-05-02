@@ -1,4 +1,3 @@
-
 # LaTeX Resume – One-File Standalone Version
 
 This is a simple, elegant one-file LaTeX resume template that requires no external files or packages beyond standard ones.
@@ -115,6 +114,12 @@ If you're not using these links, you can remove that whole block.
 * You can copy-paste the `\section*{}` blocks to add more custom sections (e.g., Certifications, Awards).
 * Use `\textit{}` to italicize technologies or secondary info.
 * Use `\smallgap` to reduce space between elements in the same section.
+* How to use `\smallgap`
+  ```latex
+  \section*{Projects}
+  \smallgap
+  \textbf{Hello world!} - hahahaha
+  ```
 
 ---
 

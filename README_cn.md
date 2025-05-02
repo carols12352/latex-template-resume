@@ -120,6 +120,13 @@ Relevant Courses: ...
 * 可复制 `\section*{}` 块增加更多内容模块，例如证书、获奖、出版物等。
 * 用 `\textit{}` 命令将技术名词或工具名变为斜体。
 * 使用 `\smallgap` 命令压缩条目间垂直间距。
+* 如何使用 `\smallgap`
+
+  ```latex
+  \section*{Projects}
+  \smallgap
+  \textbf{Hello world!} - hahahaha
+  ```
 
 ---
 
