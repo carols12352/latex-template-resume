@@ -119,4 +119,4 @@ If you're not using these links, you can remove that whole block.
 
 ## License
 
-GNU GPL3 License – Free to use, modify, and distribute.
+MIT License – Free to use, modify, and distribute.
