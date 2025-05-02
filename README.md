@@ -1,10 +1,10 @@
-# LaTeX Resume – One-File Standalone Version
+(English|[简体中文](./README_cn.md)）
+# LaTeX Resume
 
 This is a simple, elegant one-file LaTeX resume template that requires no external files or packages beyond standard ones.
 
 You can compile this file directly using Overleaf or any LaTeX editor (e.g., TeXShop, TeXworks).
 
----
 
 ## Basic Structure
 
@@ -17,7 +17,6 @@ The resume is structured as follows:
 - **Projects**
 - **Leadership**
 
----
 
 ## How to Use
 
@@ -32,7 +31,6 @@ In the LaTeX source, look for:
 
 Replace with your name, email, phone number, GitHub username, and LinkedIn link.
 
----
 
 2. **Update Each Section**
 
@@ -47,7 +45,6 @@ Relevant Courses: ...
 
 Use similar patterns for experience, projects, and leadership.
 
----
 
 ## Customization Guide
 
@@ -94,7 +91,6 @@ Use the `itemize` environment for skill lists or task lists:
 
 You can change `leftmargin` or `itemsep` to adjust layout.
 
----
 
 ## FontAwesome Icons
 
@@ -107,7 +103,6 @@ This template uses the `fontawesome` package for:
 
 If you're not using these links, you can remove that whole block.
 
----
 
 ## Tips
 
@@ -121,15 +116,13 @@ If you're not using these links, you can remove that whole block.
   \textbf{Hello world!} - hahahaha
   ```
 
----
 
 ## Requirements
 
 * LaTeX packages: `fontawesome`, `titlesec`, `enumitem`, `parskip`, `setspace`
 * Recommended compiler: `pdflatex`, or use [Overleaf](https://www.overleaf.com/)
 
----
 
 ## License
 
-GNU GPL3 License – Free to use, modify, and distribute.
+MIT License – Free to use, modify, and distribute.
