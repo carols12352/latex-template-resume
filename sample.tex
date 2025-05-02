@@ -1,0 +1,85 @@
+\documentclass[10pt,a4paper]{article}
+
+% ---------- Page Setup ----------
+\usepackage[a4paper,margin=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{fontawesome}
+\usepackage{parskip}
+\usepackage{lmodern}
+
+\setlength{\parindent}{0pt}
+\setstretch{0.92}
+
+% ---------- Section Title Style ----------
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing\section{0pt}{6pt plus 2pt minus 1pt}{4pt plus 1pt minus 1pt}
+
+% ---------- Hyperlink Style ----------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black
+}
+
+% ---------- Custom Commands ----------
+\newcommand{\name}[1]{\centerline{\Huge \bfseries #1}}
+\newcommand{\contact}[4]{
+    \begin{center}
+        \small \faEnvelope~\href{mailto:#1}{#1} \quad
+        \faPhone~\href{tel:#2}{#2} \quad
+        \faGithub~\href{https://github.com/#3}{#3} \quad
+        \faLinkedinSquare~\href{#4}{LinkedIn}
+    \end{center}
+}
+\newcommand{\smallgap}{\vspace{-1em}}
+
+\begin{document}
+
+% ---------- Header ----------
+\name{Riley Johnson}
+\contact{rileyjohnson@yahoo.com}{+1-384-623-6034}{rileyjohnson}{https://www.linkedin.com/in/rileyjohnson/}
+
+% ---------- Education ----------
+\section*{Education}
+\textbf{Sample University}, San Francisco \\
+Bachelor of Computer Science (2021--2025) \\
+Relevant Courses: Data Structures, Machine Learning, Web Development
+
+\textbf{Sample High School}, San Francisco \\
+High School Diploma (2017--2021) \\
+Relevant Courses: Mathematics, Physics, Computer Science
+
+% ---------- Skills ----------
+\section*{Skills}
+\begin{itemize}[leftmargin=1.5em, itemsep=0pt]
+    \item \textbf{Programming Languages:} Python, JavaScript, Java
+    \item \textbf{Tools/Frameworks:} Git, React, Node.js
+    \item \textbf{Languages:} English (Fluent)
+\end{itemize}
+
+% ---------- Experience ----------
+\section*{Experience}
+\textbf{Software Engineering Intern} \hfill \textit{May 2024 -- Aug 2024} \\
+InnovateTech Solutions \hfill San Francisco \\
+- Developed internal dashboard systems using React and Express.js \\
+- Collaborated with a team of 5 to optimize API performance \\
+\textit{\footnotesize JavaScript, React, REST APIs}
+
+% ---------- Projects ----------
+\section*{Projects}
+\textbf{AI-Based Chatbot} \hfill \textit{Jan 2024 -- Apr 2024} \\
+Personal Project \\
+- Built an AI chatbot using Python and OpenAI API \\
+- Integrated into a website with Flask backend \\
+\textit{\footnotesize Python, NLP, Flask}
+
+% ---------- Leadership ----------
+\section*{Leadership}
+\textbf{Tech Society -- President} \hfill \textit{Sep 2022 -- Present} \\
+- Organized weekly coding meetups and annual hackathons \\
+- Mentored junior members in software projects
+
+\end{document}
