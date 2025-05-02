@@ -1,3 +1,5 @@
+([English](./README.md)|简体中文）
+
 # LaTeX 简历模板
 
 这是一个简洁优雅的 LaTeX 简历模板，仅使用标准的 LaTeX 宏包，无需额外文件或复杂结构。
